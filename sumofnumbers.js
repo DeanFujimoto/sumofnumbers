@@ -1,5 +1,5 @@
 const testnums = [1, 2, 3, 4];
-const testnums2 = [4, 2, 3, 4];
+
 function sumFor(nums) {
   let total = 0;
   for (const num of nums) {
@@ -29,6 +29,6 @@ function sumTheSimpleWay(nums) {
   return _.reduce(nums, function (memo, num) { return memo + num; }, 0);
 }
 console.log(sumFor(testnums));
-console.log(someWhile(testnums2));
+console.log(someWhile(testnums));
 console.log(sumRecursion(testnums));
 console.log(sumTheSimpleWay(testnums));
